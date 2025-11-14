@@ -1,0 +1,110 @@
+1. Functional vs Non-Functional Testing
+Functional Testing - "Does it WORK?"
+
+Tests WHAT the system does
+
+Examples:
+
+Login functionality
+
+Payment processing
+
+Search features
+
+Focus: Requirements and specifications
+
+Non-Functional Testing - "How WELL does it work?"
+
+Tests HOW the system performs
+
+Examples:
+
+Speed (performance testing)
+
+Security (security testing)
+
+User experience (usability testing)
+
+Focus: Quality attributes
+
+2. Unit Testing vs Integration Testing
+Unit Testing 🔧
+
+Tests INDIVIDUAL components in isolation
+
+Scope: Single function/method/class
+
+When: During development
+
+Example: Testing a "calculateTax()" function alone
+
+Tools: JUnit, pytest, NUnit
+
+Integration Testing 🔗
+
+Tests how MULTIPLE components work together
+
+Scope: Interfaces between components
+
+When: After unit testing
+
+Example: Testing login + database + session management together
+
+Tools: TestNG, Selenium
+
+3. System Testing 🏗️
+Tests the COMPLETE, integrated system
+
+Scope: Entire application
+
+Focus: End-to-end workflows
+
+Example: Testing entire e-commerce checkout process
+
+Goal: Verify system meets all requirements
+
+4. Acceptance Testing ✅
+Tests if system meets BUSINESS needs
+
+Performed by: Clients/end-users
+
+Types:
+
+UAT (User Acceptance Testing) - Real users test
+
+BAT (Business Acceptance Testing) - Business team tests
+
+Question: "Is this software ready for production?"
+
+5. Common Non-Functional Testing Types
+Performance Testing ⚡
+
+Load testing - Normal conditions
+
+Stress testing - Extreme conditions
+
+Volume testing - Large data amounts
+
+Security Testing 🔒
+
+Vulnerability scanning
+
+Penetration testing
+
+Authentication testing
+
+Usability Testing 👥
+
+User experience testing
+
+Interface intuitiveness
+
+Accessibility testing
+
+Compatibility Testing 📱
+
+Different browsers/devices
+
+Operating systems
+
+Mobile responsiveness

@@ -1,0 +1,27 @@
+
+ 1. Importance of Software Testing
+- **Prevents costly failures** (like banking system crashes)
+- **Ensures software quality** and reliability
+- **Protects user data** and security
+- **Meets customer requirements** and expectations
+- **Saves money** (fixing bugs early is cheaper than after release)
+
+2. Errors vs Defects vs Failures
+- **Error**: Human mistake in code (e.g., programmer writes wrong formula)
+- **Defect/Bug**: The flaw in software caused by the error
+- **Failure**: When the defect actually causes system to malfunction for users
+
+3. Pesticide Paradox Principle
+- If you keep using the same tests, they stop finding new bugs
+- **Solution**: Regularly update and add new test cases
+- **Example**: If you only test login with "admin/admin", you'll miss other login issues
+
+4. Static vs Dynamic Testing
+- **Static Testing**: Review code without executing it (code reviews, inspections)
+- **Dynamic Testing**: Run the software with test data (unit testing, integration testing)
+
+5. Early Testing in SDLC
+- Finding bugs early = **cheaper to fix**
+- Requirements testing catches issues before coding even starts
+- Prevents accumulation of defects through development phases
+
